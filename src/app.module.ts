@@ -7,7 +7,6 @@ import { ReviewsModule } from './reviews/reviews.module';
 import { BooksModule } from './books/books.module';
 import { AuthModule } from './auth/auth.module';
 import { PrismaService } from './prisma/prisma.service';
-import { PrismaService } from './prisma/prisma.service';
 
 @Module({
   imports: [UsersModule, KostModule, ReviewsModule, BooksModule, AuthModule],
